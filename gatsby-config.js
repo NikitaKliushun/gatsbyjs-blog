@@ -5,6 +5,7 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `node-polyfill-webpack-plugin`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -23,6 +24,7 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
